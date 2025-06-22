@@ -300,7 +300,8 @@ form{
 }
 .check-box{
     display: flex;
-    align-self: auto;
+    margin-right: 0.5rem;
+    max-width: 19.5rem;
 }
 .check-box-input{
     width: 1.25rem;
@@ -308,7 +309,13 @@ form{
 }
 .check-box-label{
     font-size: 0.875rem;
+    max-width: 17.75rem;
 }
+
+input[type="checkbox"] {
+  accent-color: #627089;
+}
+
 .submit-button{
     display: flex;
     width: 6.5rem;
