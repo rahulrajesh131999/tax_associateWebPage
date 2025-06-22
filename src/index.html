@@ -27,25 +27,25 @@
 </nav>
 <nav class="second_nav">
     <!-- desktop section -->
-    <div>
+    <div class="logo">
         <img src="/src/assets/icons/logoIcon.svg"/>
     </div>
     <div class="desktop_nav_list">
         <ul class="nav_list">
-            <li ><a class="list" href="#">Home</a></li>
-            <li ><a class="list" href="#">Services</a></li>
-            <li ><a class="list" href="#">About Us</a></li>
-            <li ><a class="list" href="#">Order Company</a></li>
-            <li ><a class="list" href="#">Apply for Tax Rebate</a></li>
-            <li ><a class="list" href="#">Blog</a></li>
-            <li ><a class="list" href="#">Contact</a></li>
+            <li class="desktop_list_container"><a class="desktop_list" href="#">Home</a></li>
+            <li class="desktop_list_container"><a class="desktop_list" href="#">Services</a></li>
+            <li class="desktop_list_container"><a class="desktop_list" href="#">About Us</a></li>
+            <li class="desktop_list_container"><a class="desktop_list" href="#">Order Company</a></li>
+            <li class="desktop_list_container"><a class="desktop_list" href="#">Apply for Tax Rebate</a></li>
+            <li class="desktop_list_container"><a class="desktop_list" href="#">Blog</a></li>
+            <li class="desktop_list_container"><a class="desktop_list" href="#">Contact</a></li>
         </ul>
     </div>
     <!-- Mobile nav -->
     <div class="hamburger-menu" onclick=showSidebar()>
         <img src="/src/assets/icons/hamburger-menu.svg" alt="" height="40rem"/>
     </div>
-    <div class="mobile_sidebar">
+    <div class="mobile_sidebar" id="sidebar">
         <div class="mobile_sidebar_contents">
             <div class="top-section" >
                 <div onclick=closeSidebar() class="closeIcon">
@@ -63,13 +63,13 @@
             </div>
 
             <ul class="mobile_nav_list">
-                <li ><a class="list" href="#">Home</a></li>
-                <li ><a class="list" href="#">Services</a></li>
-                <li ><a class="list" href="#">About Us</a></li>
-                <li ><a class="list" href="#">Order Company</a></li>
-                <li ><a class="list" href="#">Apply for Tax Rebate</a></li>
-                <li ><a class="list" href="#">Blog</a></li>
-                <li ><a class="list" href="#">Contact</a></li>
+                <li class="mobile_list_container"><a class="list" href="#">Home</a></li>
+                <li class="mobile_list_container"><a class="list" href="#">Services</a></li>
+                <li class="mobile_list_container"><a class="list" href="#">About Us</a></li>
+                <li class="mobile_list_container"><a class="list" href="#">Order Company</a></li>
+                <li class="mobile_list_container"><a class="list" href="#">Apply for Tax Rebate</a></li>
+                <li class="mobile_list_container"><a class="list" href="#">Blog</a></li>
+                <li class="mobile_list_container"><a class="list" href="#">Contact</a></li>
             </ul>
         </div>
         <div class="socialMedia_mobile">
