@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- ---------------------- NAVBAR SECTION ----------------- -->
+ <!-- Desktop section -->    
+<nav class="first_nav">
+    <div class="first_nav_contact">
+    <div class="first_nav_firstSection">
+        <div class="first_nav_subSection"><img src="/src/assets/icons/phoneIcon.svg" alt="" height="16px" width="16px"/><span>087 245 0049/ 01 8137811</span></div>
+        <div class="seperarion"></div>
+        <div class="first_nav_subSection"><img src="/src/assets/icons/mailIcon.svg" alt="" height="16px" width="16px"/><span>contact@sample.ie</span></div>
+        <div class="seperarion"></div>
+        <div class="first_nav_subSection"><img src="/src/assets/icons/timeIcon.svg" alt="" height="16px" width="16px"/><span>Mon-Thu: 8:00 am to 9:00 pm</span></div>
+    </div>
+    <div class="socialMedia">
+        <img src="/src/assets/icons/fbIcon.svg" alt="" height="24px" width="24px"/>
+        <img src="/src/assets/icons/twitterIcon.svg" alt="" height="24px" width="24px"/>
+        <img src="/src/assets/icons/LinkedIcon.svg" alt="" height="24px" width="24px"/>
+    </div>
+    </div>
+</nav>
+<nav class="second_nav">
+    <!-- desktop section -->
+    <div>
+        <img src="/src/assets/icons/logoIcon.svg"/>
+    </div>
+    <div class="desktop_nav_list">
+        <ul class="nav_list">
+            <li ><a class="list" href="#">Home</a></li>
+            <li ><a class="list" href="#">Services</a></li>
+            <li ><a class="list" href="#">About Us</a></li>
+            <li ><a class="list" href="#">Order Company</a></li>
+            <li ><a class="list" href="#">Apply for Tax Rebate</a></li>
+            <li ><a class="list" href="#">Blog</a></li>
+            <li ><a class="list" href="#">Contact</a></li>
+        </ul>
+    </div>
+    <!-- Mobile nav -->
+    <div class="hamburger-menu" onclick=showSidebar()>
+        <img src="/src/assets/icons/hamburger-menu.svg" alt="" height="40rem"/>
+    </div>
+    <div class="mobile_sidebar">
+        <div class="mobile_sidebar_contents">
+            <div class="top-section" >
+                <div onclick=closeSidebar() class="closeIcon">
+                    <img src="/src/assets/icons/close.svg" alt="" height="30rem"/>
+                </div>
+               <div class="close_section" >
+                    <div class="first_nav_firstSection_mobile">
+                        <div class="first_nav_subSection_mobile"><img src="/src/assets/icons/phoneIcon.svg" alt="" height="16px" width="16px"/><span>087 245 0049/ 01 8137811</span></div>
+
+                        <div class="first_nav_subSection_mobile"><img src="/src/assets/icons/mailIcon.svg" alt="" height="16px" width="16px"/><span>contact@sample.ie</span></div>
+
+                    <div class="first_nav_subSection_mobile"><img src="/src/assets/icons/timeIcon.svg" alt="" height="16px" width="16px"/><span>Mon-Thu: 8:00 am to 9:00 pm</span></div>
+                    </div>
+               </div> 
+            </div>
+
+            <ul class="mobile_nav_list">
+                <li ><a class="list" href="#">Home</a></li>
+                <li ><a class="list" href="#">Services</a></li>
+                <li ><a class="list" href="#">About Us</a></li>
+                <li ><a class="list" href="#">Order Company</a></li>
+                <li ><a class="list" href="#">Apply for Tax Rebate</a></li>
+                <li ><a class="list" href="#">Blog</a></li>
+                <li ><a class="list" href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="socialMedia_mobile">
+            <img src="/src/assets/icons/fbBlack.svg" alt="" height="24px" width="24px"/>
+            <img src="/src/assets/icons/twitterBlack.svg" alt="" height="24px" width="24px"/>
+            <img src="/src/assets/icons/inBlack.svg" alt="" height="24px" width="24px"/>
+        </div>
+    </div>
+</nav>
+
+<!-- ------------------------ Hero Space ---------------------------------- -->
+<div class="HeroSection">
+    <div class="imageSection">
+        <img src="/src/assets/images/background.png" class="main-image" width="100%" >
+    </div>
+    <div class="container">
+        <div class="heading-container">
+            <h1 class="main-heading">Take The Right Step For Your Business</h1>
+            <p class="main-desc">TAx Associate is a leading consultancy firm that provides simple, effective company registration, and accounting solutions to enterprises in Ireland. </p>
+            <button class="first-button">Get Started</button>
+        </div>
+        <div class="form-container">
+            <h1 class="form-heading">Apply For Tax Rebate Now</h1>
+            <div>
+                <form>
+                    <label for="name" class="label">Name</label>
+                    <input class="input" id="name" name="name" type="text"/>
+                    <label for="email" class="label">Email ID</label>
+                    <input class="input" id="email" name="email" type="text"/>
+                    <label for="pps" class="label">PPS Number</label>
+                    <input class="last-input" id="pps" name="pps" type="text"/>
+                    <div class="check-box">
+                        <input class="check-box-input" type="checkbox" id="terms" name="terms"/>
+                        <label class="check-box-label"for="terms">I have read & agreed to the authorisation and the <span><a href="#">terms & conditions.</a></span></label>
+                    </div>
+                    <button type="submit" class="submit-button">Apply<span class="arrow"><img src="/src/assets/icons/arrow.svg"/></span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="form-container-mobile">
+        <h1 class="form-heading-mobile">Apply For Tax Rebate Now</h1>
+            <div class="form-mobile">
+                <form>
+                    <label for="name" class="label">Name</label>
+                    <input class="input" id="name" name="name" type="text"/>
+                    <label for="email" class="label">Email ID</label>
+                    <input class="input" id="email" name="email" type="text"/>
+                    <label for="pps" class="label">PPS Number</label>
+                    <input class="last-input" id="pps" name="pps" type="text"/>
+                    <div class="check-box">
+                        <input class="check-box-input" type="checkbox" id="terms" name="terms"/>
+                        <label class="check-box-label"for="terms">I have read & agreed to the authorisation and the <span><a href="#">terms & conditions.</a></span></label>
+                    </div>
+                    <button type="submit" class="submit-button">Apply<span class="arrow"><img src="/src/assets/icons/arrow.svg"/></span></button>
+                </form>
+            </div>
+        </div>
+</div>
+
+    <!-- --------------------------- Services ------------------------>
+
+<div class="services-section">
+    <div class="services-section-subSection">
+        <div class="services-container">
+            <img src="/src/assets/icons/StartUpServices.svg" height="64px" width="64px"/>
+            <h3>Start Up Services</h3>
+            <p class="services-para">We support entrepreneurs to build their businesses by providing them with the ideal company formation legal services.</p>
+        </div>
+        <div class="services-container">
+            <img src="/src/assets/icons/financeAndAccounting.svg" height="64px" width="64px"/>
+            <h3>Finance & Accounting</h3>
+            <p class="services-para">We provide our clients with the best in the market, accounting, and financial services to help accelerate their business growth.</p>
+        </div>
+        <div class="services-container">
+            <img src="/src/assets/icons/riskAndAssurance.svg" height="64px" width="64px"/>
+            <h3>Risk & Assurance</h3>
+            <p class="services-para">We offer risk and assurance services for new as well as established businesses to help them reduce risks and overcome any disruption.</p>
+        </div>
+    </div>
+</div>
+    <script src="/src/js/script.js"></script>
+</body>
+</html>
